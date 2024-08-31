@@ -1,0 +1,109 @@
+.homepage-container {
+    background-color: #00a1e1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px; /* Added more padding */
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px; /* Added space between the section and footer */
+  }
+  
+  .muscle-img {
+    width: 180px; /* Increased size for better balance */
+    height: auto;
+    margin-left: 40px; /* Increased margin for better balance */
+  }
+  
+  .profile-img {
+    width: 180px; /* Increased size for better balance */
+    height: auto;
+    margin-right: 40px; /* Increased margin for better balance */
+  }
+  
+  .center-section {
+    text-align: center;
+    flex-grow: 1;
+    padding: 0 20px; /* Added padding for better spacing */
+  }
+  
+  .text-section {
+    margin-bottom: 30px; /* Increased margin to spread out the content */
+  }
+  
+  .main-title {
+    font-size: 54px; /* Slightly increased for better visibility */
+    color: #fff;
+  }
+  
+  .sub-title, .quote {
+    font-size: 20px; /* Slightly increased for readability */
+    color: #fff;
+  }
+  
+  .login-section {
+    margin-bottom: 30px; /* Added space below the login buttons */
+  }
+  
+  .login-btn, .register-btn {
+    background-color: #fff;
+    color: #00a1e1;
+    border: none;
+    padding: 12px 30px; /* Increased padding for larger buttons */
+    margin: 10px 20px; /* Added horizontal margin for better spacing */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for better readability */
+  }
+  
+  .social-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Increased space above social icons */
+  }
+  
+  .social-login, .social-signin {
+    display: flex;
+gap: 4px; /* Increased gap for better spacing between icons */
+  }
+  
+  .social-login img, .social-signin img {
+    width: 45px;
+    height: 45px;
+margin: 0 20px; 
+  }
+  
+  .footer {
+    background-color: #a9a0a0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-size: 16px; /* Slightly increased font size for better readability */
+  }
+  
+  .social-media-icons a {
+    margin: 0 15px;
+    color: #000;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
