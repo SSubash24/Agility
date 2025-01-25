@@ -1,0 +1,24 @@
+/* Basic styles for the team cards */
+.card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Slide-in animation when the card comes into view */
+.card.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Styling for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add some spacing to the team section */
+.text-center {
+    margin-bottom: 50px;
+}

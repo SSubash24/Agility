@@ -1,0 +1,91 @@
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light neutral background for better readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+}
+
+/* Heading styling */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* Large size for clear hierarchy */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark text for readability */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px; /* Consistent margin between form elements */
+}
+
+/* Label styling */
+.form-group label {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem; /* Larger font for readability */
+    color: #333; /* Consistent text color */
+    margin-bottom: 8px;
+    display: block; /* Ensures label is above the input */
+}
+
+/* Input, select, and textarea styling */
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #495057;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Add subtle focus effect */
+}
+
+/* Textarea styling */
+textarea.form-control {
+    resize: none; /* Disable resizing to maintain consistent design */
+}
+
+/* Button styling */
+.btn {
+    width: 100%;
+    padding: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* Larger font for better readability */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover for visual feedback */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .form-group label, 
+    .form-control, 
+    .btn {
+        font-size: 0.9rem; /* Slightly smaller font on smaller screens */
+    }
+}

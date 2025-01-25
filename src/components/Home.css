@@ -1,0 +1,119 @@
+/* General Styling */
+body, .main-title, .sub-title, .quote, .contact-info p {
+  font-family: 'Arial', sans-serif; /* Sans Serif for better readability */
+}
+
+/* Homepage Container */
+.homepage-container {
+  background-color: #f0f4f8; /* Neutral background for less strain on the eyes */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px; /* Added more padding */
+}
+
+/* Content Container */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 30px; /* Increased padding for white space */
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px; /* Added space between the section and footer */
+}
+
+.muscle-img, .profile-img {
+  width: 180px; /* Increased size for better balance */
+  height: auto;
+  margin: 0 40px; /* Increased margin for better balance */
+}
+
+/* Center Section */
+.center-section {
+  text-align: center;
+  flex-grow: 1;
+  padding: 30px; /* Added padding for better spacing */
+}
+
+/* Text Section */
+.text-section {
+  margin-bottom: 30px; /* Increased margin to spread out the content */
+}
+
+/* Main Title */
+.main-title {
+  font-size: 48px; /* Large heading for clear hierarchy */
+  color: #333; /* Darker text for better readability */
+}
+
+/* Sub Title & Quotes */
+.sub-title, .quote {
+  font-size: 24px; /* Medium size for subheadings */
+  color: #333; /* Darker text for better readability */
+}
+
+/* Login Section */
+.login-section {
+  margin-bottom: 30px; /* Added space below the login buttons */
+}
+
+.login-btn, .register-btn {
+  background-color: #fff;
+  color: #00a1e1;
+  border: none;
+  padding: 15px 35px; /* Increased padding for larger buttons */
+  margin: 10px 20px; /* Added horizontal margin for better spacing */
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px; /* Ensure button text is easily readable */
+}
+
+/* Social Section */
+.social-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Increased space above social icons */
+}
+
+.social-login, .social-signin {
+  display: flex;
+  gap: 4px; /* Increased gap for better spacing between icons */
+}
+
+.social-login img, .social-signin img {
+  width: 45px;
+  height: 45px;
+  margin: 0 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #a9a0a0;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Contact Info */
+.contact-info p {
+  margin: 5px 0;
+  font-size: 18px; /* Slightly increased font size for better readability */
+}
+
+/* Social Media Icons */
+.social-media-icons a {
+  margin: 0 15px;
+  color: #000;
+  font-size: 22px;
+  text-decoration: none;
+}
